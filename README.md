@@ -88,15 +88,15 @@ mkdir res
 4. 再把 machinecode 结构体解码为十六进制指令（注意，‘jump 对象地址’ 与 ‘ALU 操作数’ 占用的位数会有冲突，所以要在解码时判断编码方式）
 
 [电路设计]
-![ALU](docs/Logisim-Circuit/ALU.jpg)
-![AU](docs/Logisim-Circuit/AU.jpg)
-![Computer](docs/Logisim-Circuit/Computer.jpg)
-![CPU](docs/Logisim-Circuit/CPU.jpg)
-![LU](docs/Logisim-Circuit/LU.jpg)
-![PC](docs/Logisim-Circuit/PC.jpg)
-![RG](docs/Logisim-Circuit/RG.jpg)
-![SD](docs/Logisim-Circuit/SD.jpg)
-![SRD](docs/Logisim-Circuit/SRD.jpg)
+![ALU](docs/Logisim-Circuit/ALU.jpeg)
+![AU](docs/Logisim-Circuit/AU.jpeg)
+![Computer](docs/Logisim-Circuit/Computer.jpeg)
+![CPU](docs/Logisim-Circuit/CPU.jpeg)
+![LU](docs/Logisim-Circuit/LU.jpeg)
+![PC](docs/Logisim-Circuit/PC.jpeg)
+![RG](docs/Logisim-Circuit/RG.jpeg)
+![SD](docs/Logisim-Circuit/SD.jpeg)
+![SRD](docs/Logisim-Circuit/SRD.jpeg)
 
 [声明]
 1. 本项目为个人项目，仅供学习交流使用，不涉及任何商业用途  
