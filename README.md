@@ -83,20 +83,20 @@ mkdir res
 [项目思路分享]
 1. 对于所有指令分布进行整理，整理成逻辑块（例如：0-2 为 ALU 控制指令，21-25 和 6-13 分别为 ALU 的两个输入）
 2. 列出表格，理清指令集对应的逻辑块是否使用，要传入什么参数等（可以在表格中自行查看）
-![Logisim-MachineCode](docs/Logisim-MachineCode.jpg)
+![Logisim-MachineCode](docs/Logisim-MachineCode.png)
 3. 建立结构体 machinecode，把表格中的指令编码成 machinecode 结构体
 4. 再把 machinecode 结构体解码为十六进制指令（注意，‘jump 对象地址’ 与 ‘ALU 操作数’ 占用的位数会有冲突，所以要在解码时判断编码方式）
 
 [电路设计]
-![ALU](docs/Logisim-Circuit/ALU.jpeg)
-![AU](docs/Logisim-Circuit/AU.jpeg)
-![Computer](docs/Logisim-Circuit/Computer.jpeg)
-![CPU](docs/Logisim-Circuit/CPU.jpeg)
-![LU](docs/Logisim-Circuit/LU.jpeg)
-![PC](docs/Logisim-Circuit/PC.jpeg)
-![RG](docs/Logisim-Circuit/RG.jpeg)
-![SD](docs/Logisim-Circuit/SD.jpeg)
-![SRD](docs/Logisim-Circuit/SRD.jpeg)
+![ALU](docs/Logisim-Circuit/ALU.png)
+![AU](docs/Logisim-Circuit/AU.png)
+![Computer](docs/Logisim-Circuit/Computer.png)
+![CPU](docs/Logisim-Circuit/CPU.png)
+![LU](docs/Logisim-Circuit/LU.png)
+![PC](docs/Logisim-Circuit/PC.png)
+![RG](docs/Logisim-Circuit/RG.png)
+![SD](docs/Logisim-Circuit/SD.png)
+![SRD](docs/Logisim-Circuit/SRD.png)
 
 [声明]
 1. 本项目为个人项目，仅供学习交流使用，不涉及任何商业用途  
