@@ -100,5 +100,5 @@ mkdir res
 
 [声明]
 1. 本项目为个人项目，仅供学习交流使用，不涉及任何商业用途  
-2. 原作者：bilibili - Ele实验室（视频：https://www.bilibili.com/video/BV1wi4y157D3 ）  
+2. 电路参考：bilibili - Ele实验室（视频：https://www.bilibili.com/video/BV1wi4y157D3 ）  
 3. 如果有任何问题或建议，请联系作者：13670196946@163.com
