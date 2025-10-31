@@ -57,7 +57,7 @@ mkdir res
     2.3 汇编文件的每一行都可以添加注释，注释以 '//' 和 '#' 开头
 3. 项目工程文件介绍：
     3.1 InteractionModule 用户交互模块，用于查找待编译文件并询问用户具体编译选项
-    3.2 CodeOrginaztionModule IO模块，用于提炼并整理文件中的汇编指令以及负责向文件写入编译结果
+    3.2 CodeorganizationModule IO模块，用于提炼并整理文件中的汇编指令以及负责向文件写入编译结果
     3.3 CodeCompileModule 代码编译模块，用于将汇编指令编译为十六进制指令
     3.4 Logger 日志模块，用于统一化输出编译过程中的日志信息
     3.5 代码有三种 log 模式，需要用户在 main 函数中 Logger::setLevel(LogLevel::DEBUG) 部分设置，分别为 DEBUG、INFO、ERROR，自动向下兼容，默认输出 INFO 级别的日志
